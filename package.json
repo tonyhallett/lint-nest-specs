@@ -1,0 +1,19 @@
+{
+  "name": "lint-nest-specs",
+  "version": "1.0.0",
+  "description": "lint nest from outside",
+  "main": "lint-nest-specs.js",
+  "scripts": {
+    "lint-nest-specs": "node lint-nest-specs.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^12.12.14",
+    "expect-tslint": "^1.0.0",
+    "tslint": "^5.20.1"
+  },
+  "dependencies": {
+    "typescript": "^3.7.2"
+  }
+}
